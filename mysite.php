@@ -1,6 +1,6 @@
 <?php
-   $dbhost = '52.90.174.163:3036';
-   $dbuser = 'root';
+   $dbhost = '<%= node['db']['ipaddress'] %>:3036';
+   $dbuser = 'mysite';
    $dbpass = 'icarus123';
    
    $conn = mysql_connect($dbhost, $dbuser, $dbpass);
