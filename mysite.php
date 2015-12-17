@@ -19,6 +19,8 @@
       die('Could not get data: ' . mysql_error());
    }
    
+   echo gethostname();
+   
    while($row = mysql_fetch_array($retval, MYSQL_ASSOC))
    {
       echo "Zip code : {$row['zip']}  <br> ".
