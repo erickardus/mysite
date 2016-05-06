@@ -1,4 +1,5 @@
 <?php
+   $dbhost = $_ENV['DBHOST'];
    $dbhost = '<%= node['db']['ipaddress'] %>:3036';
    $dbuser = 'mysite';
    $dbpass = 'icarus123';
